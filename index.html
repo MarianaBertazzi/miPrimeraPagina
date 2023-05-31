@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="container-nav">
+    <header class="container-nav">
         <nav class="navbar" role="navigation">
             <a href="#" class="brand">Mi página web</a>
             <ul class="nav-links">
@@ -20,28 +20,36 @@
             </ul>
         </nav>
         <button class="button-menu-toggle">Menu</button>
-    </div>
+    </header>
 
-    <div class="container">
-        <h1>Hola Mundo!</h1>
-        <div class="row">
-            <div class="column">
-                <h2>¡Bienvenidos a mi primer Website!</h2>
+    <main class="container">
+
+        <h1>Bienvenidos a mi primer Website</h1>
         
-                <p>Soy Mariana, ¡y esta es mi primera página web!</p>
-            </div>
+        <section>
+            <h2>Presentación</h2>
+            <p>Soy Mariana ¡y esta es mi primera página web!</p>
+            <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+        </section>
+        
+        <section>
+            <h2>Lo que se viene...</h2>
+            <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+        </section>
+       
+        <section class="container-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mcWXvFC45hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
 
-            <div class="column">
-                <h2>Mi primer Página Web</h2>
-                <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
-                <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
-            </div>
-        </div>
-    </div>
+    </main>
     
-    <div class="container">
-        <button onclick="ShowAlert()" aria-label="Haz clic en mí">¡Haz click en mí!</button>
-    </div>
+    <footer>
+        <p>Desarrollo: MarianaBertazzi@2023 </p>
+        <div class="container">
+            <button onclick="ShowAlert()" aria-label="Haz clic en mí">¡Haz click en mí!</button>
+        </div>
+    </footer>
+    
 
     
     

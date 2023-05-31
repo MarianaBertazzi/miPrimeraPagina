@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="container-nav">
+    <header class="container-nav">
         <nav class="navbar" role="navigation">
             <a href="#" class="brand">Mi página web</a>
             <ul class="nav-links">
@@ -20,17 +20,31 @@
             </ul>
         </nav>
         <button class="button-menu-toggle">Menu</button>
-    </div>
+    </header>
 
-    <div class="container">
-        <h1>Acerca de</h1>
-        <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
-    </div>
-    <div class="container-img">
-        <img src="img/LAB1.jpg" alt="Laboratorio Automatizado Bertazzi" />
-        <img src="img/Logo1.jpg" alt="Logo 1" />
-        <img src="img/Logo1 modif.jpg" alt="Logo 2" />
-    </div>
+    <main class="container">
+        <div class="greeting">
+            <h1>Acerca de Nosotros</h1>
+            <p>¡Bienvenido a nuestra página “Acerca de Nosotros”! Aquí aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
+        </div>
+        
+        <div class="container-img">
+            <img src="img/LAB1.jpg" alt="Laboratorio Automatizado Bertazzi" />
+            <img src="img/Logo1.jpg" alt="Logo 1" />
+            <img src="img/Logo1 modif.jpg" alt="Logo 2" />
+        </div>
+
+        <div class="greeting">
+            <h1>¡Gracias por visitarnos!</h1>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desarrollo: MarianaBertazzi@2023 </p>
+        <div class="container">
+            <button onclick="ShowAlert()" aria-label="Haz clic en mí">¡Haz click en mí!</button>
+        </div>
+    </footer>
     
     
 
